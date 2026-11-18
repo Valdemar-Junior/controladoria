@@ -45,7 +45,7 @@ async function entrar() {
     <aside class="relative overflow-hidden bg-grafite" aria-hidden="true">
       <!-- fundo: a mesma arte, ampliada e desfocada, para preencher qualquer proporção de tela -->
       <img
-        src="/login2.jpeg"
+        src="/login2.jpg"
         alt=""
         class="absolute inset-0 hidden h-full w-full scale-110 object-cover opacity-70 blur-2xl lg:block"
       >
@@ -53,7 +53,7 @@ async function entrar() {
 
       <!-- celular: só o topo da arte (logo e título) -->
       <img
-        src="/login2.jpeg"
+        src="/login2.jpg"
         alt=""
         class="aspect-[80/34] w-full object-cover object-top lg:hidden"
       >
@@ -61,7 +61,7 @@ async function entrar() {
       <!-- desktop: a arte inteira, sem cortes -->
       <div class="relative hidden h-full items-center justify-center p-10 lg:flex">
         <img
-          src="/login2.jpeg"
+          src="/login2.jpg"
           alt=""
           class="arte max-h-[calc(100dvh-5rem)] w-auto rounded-[1.75rem] shadow-[0_30px_80px_-20px_rgba(80,0,8,0.55)] ring-1 ring-white/20"
         >
