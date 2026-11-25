@@ -4,6 +4,7 @@ const user = useSupabaseUser()
 
 const menu = [
   { para: '/', rotulo: 'Início' },
+  { para: '/previsao', rotulo: 'Previsão de pagamentos' },
   { para: '/despesas', rotulo: 'Despesas' },
   { para: '/classificacao', rotulo: 'Classificação de despesas' },
 ]
